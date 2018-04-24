@@ -1,0 +1,158 @@
+@font-face{font-family: SourceSansProBlack; src: url(fonts/source-sans-pro.black.ttf)}
+body{
+    background: #282828;
+}
+.page_bg{
+    height: 4966px;
+    width: 1577px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grey_bg{
+    width: 100%;
+    height: 688px;
+    background: #f6f2f2;
+    position: absolute;
+}
+.beige_bg{
+    width: 100%;
+    height: 512px;
+    position: absolute;
+    top: 3358px;
+    background: #f5f0dd;
+    background: url(images/panorama.jpg);    
+}
+.alarmblack_bg{
+    width: 100%;
+    height: 111px;
+    position: absolute;
+    bottom: 0;
+    background: #313030;
+}
+.mainmenu{
+    width: 1249px;
+    height:91px;
+    position: absolute;
+    top: 29px;
+    left: 165px;
+    background: #313030;
+}
+.mainmenu_button{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    transition: all 0.1s ease-in-out;
+    font-size: 14px;
+    font-family: 'SourceSansProBlack';
+    color: rgb(224, 224, 224);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.714;
+}
+.mainmenu_button:hover{
+    background: #ff3f40;
+}
+.common_batton_style{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle; 
+    font-size: 14px;
+    font-family: 'SourceSansProBlack';
+    color: rgb(224, 224, 224);
+    font-weight: bold;
+}
+h1{
+    font-size: 60px;
+    font-family: 'SourceSansProBlack';
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 9px;
+    display: table-cell;
+    vertical-align: top;
+    line-height: 60px;
+    font-weight: bold;
+}
+h2{
+    font-size: 40px;
+    font-family: 'SourceSansProBlack';
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.31;
+    letter-spacing: 5px;
+    display: table-cell;
+    vertical-align: top;
+}
+h3{
+    font-size:38px;
+    font-family: 'SourceSansProBlack';
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+}
+h4{
+    font-size: 27px;
+    font-family: 'SourceSansProBlack';
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.2;
+    text-align: left;
+    display: table-cell;
+    vertical-align: top;
+}
+p{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.75;
+    text-align: left;       
+}
+.text_transform{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle; 
+    font-size: 14px;
+    font-family: 'SourceSansProBlack';
+    color: rgba(0,0,0,0);
+    font-weight: bold;
+}
+.transform_div1:hover .transform_div2{
+    background: #7a786e;
+    transition: all 0.1s ease-in-out;
+}
+.transform_div1:hover .text_transform{
+    color: #ffffff;
+    transition: all 0.1s ease-in-out;
+}
+.div_opacity_map{
+    z-index: 10;
+    opacity: 0;
+}
+.div_opacity_info{
+    z-index: 9;
+}
+.div_opacity_map:hover div_opacity_info{
+    opacity: 0;  
+}
+.div_opacity_map:hover{
+    opacity: 1;
+}
+.our_strong__organaisation {
+    font-size: 60px;
+    font-family: "OpenSans";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 161.937px;
+    top: 282.718px;
+    z-index: 159;
+}
